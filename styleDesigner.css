@@ -1,0 +1,110 @@
+* {
+    font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+body {
+    height: -webkit-fill-available, 100% !important;
+    padding: 15px 15px;
+    height: 100vh !important;
+    
+
+}
+
+header {
+    background-attachment: fixed;
+}
+
+#High-header {
+    margin: 0;
+    line-height: none;
+}
+
+.classContainer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    height: 40px;
+    width: auto;
+    border: none;
+
+
+}
+
+ul li {
+    margin-left: 10px;
+}
+
+.classContainer i {
+    margin: 10px;
+    color: rgba(66, 56, 48, 0.589);
+    font-size: 120%;
+}
+
+span {
+    color: brown;
+}
+
+.classContainer ul li {
+    border: none;
+    cursor: pointer;
+    margin-top: -3rem;
+}
+
+#h1-set {
+    color: rgba(73, 23, 3, 0.705);
+    letter-spacing: 3px;
+    font-weight: bolder 900;
+    cursor: pointer;
+    border: none;
+    height: -200px;
+    width: 30%;
+    padding-left: 5%;
+}
+
+#nav-icon {
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80rem;
+    cursor: pointer;
+    display: flex;
+    margin-top: -4rem;
+}
+
+nav i {
+    font-size: 20px;
+    margin: 12px;
+
+}
+
+/* here I'm coding image and I'll use this about the responsive*/
+#sectionOne img {
+    margin: 100px 100px;
+    height: 100%;
+    width: 30%;
+    margin-left: 65%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+#sectionOne img:hover {
+   transform:scale(1.1);
+    
+}
+
