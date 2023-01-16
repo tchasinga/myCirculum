@@ -10,3 +10,15 @@ hOne.addEventListener("mouseout" , Mouseouting);
 function Mouseouting() {
     return(hOne.innerHTML=secondletter);
 }
+var typed = new Typed(".autyped",{
+    strings : [
+        "Coding in Java-aplication",
+        "Coding in HTML-CSS-JS",
+        "Full-stack Dev",
+    ],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop : true
+});
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 

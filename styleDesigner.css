@@ -10,6 +10,7 @@
 
 html {
     scroll-behavior: auto;
+    background: rgb(248, 247, 247);
 }
 
 body {
@@ -107,4 +108,53 @@ nav i {
    transform:scale(1.1);
     
 }
+.myTexture h1{
+  padding-left: 5%;
+  height: 27%;
+ width: 50%;
+  margin-top: -29rem;
+  padding: none;
+  font-size: 3rem;
+}
+#h1-set{
+    background: linear-gradient(90deg,#291818, #ff5d5d67,#ff00f3,#858ce6,#ff00c4,#94531511);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    animation:animate 10s linear infinite ;
+}
 
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.hThree{
+    padding-left: 5.5%;
+    height: 27%;
+   width: 50%;
+    margin-top: -4.8rem;
+  }
+  .hThreeOne{
+    padding-left: 5%;
+    height: 27%;
+   width: 50%;
+    margin-top: 3rem
+  }
+  #h1OneAnimating:before{
+  content : "";
+  background-color: brown; 
+  border-left: 2 solid brown;
+  animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate{
+    40% ,  60%{
+        left: 100%;
+    }
+    100%{
+        left: 0;
+    }
+}
