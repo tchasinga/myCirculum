@@ -15,8 +15,8 @@ html {
 
 body {
     height: -webkit-fill-available, 100% !important;
-    padding: 15px 15px;
-    height: 100vh !important;
+    padding-left: 5%;
+    height: 100vh ;
     
 
 }
@@ -42,7 +42,7 @@ header {
 
 }
 
-ul li {
+.classContainer ul li {
     margin-left: 10px;
 }
 
@@ -143,18 +143,51 @@ nav i {
    width: 50%;
     margin-top: 3rem
   }
-  #h1OneAnimating:before{
-  content : "";
-  background-color: brown; 
-  border-left: 2 solid brown;
-  animation: animate 4s steps(12) infinite;
+ #h1OneAnimating #autoTyped{
+    content: "";
+    position: absolute;
+    margin-left: 9px;
+    background-color: transparent;
+    animation:   animate 4s steps(12) infinite;
+ }
+ #h1OneAnimating{
+    background:none; 
+ }
+
+.codeLineSelector ul li{
+    font-size: 20px;
+    left: 40%;
+}
+/* New section Second Section */ 
+#sectionTwo{
+    padding-left: 4%;
+    margin-top: 3%;
+    position: relative;
+}
+#sectionContainer {
+ position: fixed;
+
 }
 
-@keyframes animate{
-    40% ,  60%{
-        left: 100%;
-    }
-    100%{
-        left: 0;
-    }
+#sectionContainer img{  
+ width: 15%;
+ height: 15%;
+    
 }
+.ImgageSide {
+    display: flex;
+    display: inline;
+    display: inline-flex;
+    background-color: white;
+}
+.txtComplet{
+    font-size: 10px;
+    line-height: 1;
+    padding-left: 6px;
+    padding: 10px;
+    
+}
+.txtComplet h3{
+    font-size: 12px;
+}
+ 

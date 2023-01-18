@@ -10,7 +10,8 @@ hOne.addEventListener("mouseout" , Mouseouting);
 function Mouseouting() {
     return(hOne.innerHTML=secondletter);
 }
-var typed = new Typed(".autyped",{
+/*
+var typed = new Typed(".autoTyped",{
     strings : [
         "Coding in Java-aplication",
         "Coding in HTML-CSS-JS",
@@ -19,6 +20,20 @@ var typed = new Typed(".autyped",{
     typeSpeed: 150,
     backSpeed: 150,
     loop : true
-});
+})
+/*/
+ const texChange =  document.getElementById("autoTyped");
+  const textLoad = () =>{
+    setTimeout (() =>{
+        texChange.textContent = " Web UI Developers";
+    },0);
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
+    setTimeout (() =>{
+        texChange.textContent = " Java Software programer";
+    },4000);
+    setTimeout (() =>{
+        texChange.textContent = " Coding in JavaScript";
+    },8000);
+  }
+  textLoad();
+  setInterval(textLoad,12000);
