@@ -206,7 +206,8 @@ nav i {
     body {
         height: -webkit-fill-available, 100% !important;
         padding-left: 5%;
-        height: none ;
+        height: 50vh;
+        width: 45vh;
     }
 
     .myTexture h1{
@@ -238,11 +239,8 @@ nav i {
         justify-content: end;
     }
     .classContainer ul{
-        padding-left: 15%;
+        padding-left: 5%;
         margin-top: 10%;
-        align-items: center;
-        justify-content: center;
-        position: relative;
         display: inline-flex;
         font-size: 16px;
     }
@@ -269,5 +267,18 @@ nav i {
     #sectionTwo{
         margin-top: 6rem;
         font-size: 14px;
+       
     }
+    #sectionContainer{
+        padding-left: -15%; 
+    }
+   .naver-icon nav ul {
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35rem;
+    cursor: pointer;
+    display: flex;
+    margin-top: -7rem;
+   }
 }
