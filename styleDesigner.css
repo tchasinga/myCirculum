@@ -198,12 +198,19 @@ nav i {
     margin-bottom: 1.5rem;
     height: 60px;
     width: 180px;
+    backface-visibility: visible;
+    background-attachment: fixed;
+    
   }
   .classContainer {
     font-size: 9px;
+    margin-right: 40px;
+    width: 99%;
   }
   .classContainer ul li i{
     margin: 3px;
+    align-items: center;
+    position: relative
   }
   /*the first time was archived */ 
 
@@ -226,12 +233,12 @@ nav i {
     justify-content: center;
 }
 #myText img{
-    height: 30%;
-    width: 70%;
-    margin: 9rem;
+    height: 25%;
+    width: 200px;
+    margin-top: 15rem;
     align-self: center;
     margin-left: 4rem;
-    position: relative;
+    background-attachment: fixed;
 }
 .myTexture h1 {
     font-size: small;
@@ -243,7 +250,9 @@ nav i {
     width: 130px;
     margin-top: -12%;
 }
+.hThreeOne{
 
+}
 
 /*side to  review again */
  #sectionTwo{
