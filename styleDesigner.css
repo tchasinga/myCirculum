@@ -338,9 +338,7 @@ nav i {
     width: 130px;
     margin-top: -12%;
 }
-.hThreeOne{
 
-}
 
 /*side to  review again */
 #sectionTwo{
@@ -366,7 +364,7 @@ nav i {
       
 
 }
-@media only screen and (width <= 320px) { 
+@media only screen and (width: 320px) { 
     #h1-set{
     font-size: 15px;
     margin-bottom: 1.5rem;
