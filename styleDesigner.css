@@ -260,3 +260,73 @@ nav i {
  }
 
 }
+
+
+@media screen and (width >= 375px) { 
+    #h1-set{
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+    height: 60px;
+    width: 180px;
+    backface-visibility: visible;
+    background-attachment: fixed;
+    
+  }
+  .classContainer {
+    font-size: 9px;
+    margin-right: 40px;
+    width: 99%;
+  }
+  .classContainer ul li i{
+    margin: 3px;
+    align-items: center;
+    position: relative
+  }
+  /*the first time was archived */ 
+
+  nav ul {
+    color: rgb(41, 41, 41);
+    margin-top: -6rem;
+    margin-left: -10rem;
+    cursor: pointer;
+    display: flex;
+}
+
+nav i {
+    font-size: 15px;
+    margin: 10px;
+}
+/*this one is holding */
+
+#sectionOne {
+    align-items: center;
+    justify-content: center;
+}
+#myText img{
+    height: 25%;
+    width: 200px;
+    margin-top: 15rem;
+    align-self: center;
+    margin-left: 4rem;
+    background-attachment: fixed;
+}
+.myTexture h1 {
+    font-size: small;
+   width: 80px;
+}
+
+.hThree{
+    font-size:8.8px;
+    width: 130px;
+    margin-top: -12%;
+}
+.hThreeOne{
+
+}
+
+/*side to  review again */
+ #sectionTwo{
+    margin-top: 90%;
+ }
+
+}
