@@ -1,4 +1,5 @@
-* {
+
+ * {
     font-family: 'Jost', sans-serif;
     box-sizing: border-box;
     list-style: none;
@@ -164,7 +165,7 @@ nav i {
 #sectionTwo{
     padding-left: 4%;
     margin-top: 3%;
-    position: relative;
+  
 }
 
 
@@ -191,4 +192,62 @@ nav i {
 }
  
 /* Responsive side */
+@media screen and (width <= 375px) { 
+    #h1-set{
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+    height: 60px;
+    width: 180px;
+  }
+  .classContainer {
+    font-size: 9px;
+  }
+  .classContainer ul li i{
+    margin: 3px;
+  }
+  /*the first time was archived */ 
 
+  nav ul {
+    color: rgb(41, 41, 41);
+    margin-top: -6rem;
+    margin-left: -10rem;
+    cursor: pointer;
+    display: flex;
+}
+
+nav i {
+    font-size: 15px;
+    margin: 10px;
+}
+/*this one is holding */
+
+#sectionOne {
+    align-items: center;
+    justify-content: center;
+}
+#myText img{
+    height: 30%;
+    width: 70%;
+    margin: 9rem;
+    align-self: center;
+    margin-left: 4rem;
+    position: relative;
+}
+.myTexture h1 {
+    font-size: small;
+   width: 80px;
+}
+
+.hThree{
+    font-size:8.8px;
+    width: 130px;
+    margin-top: -12%;
+}
+
+
+/*side to  review again */
+ #sectionTwo{
+    margin-top: 90%;
+ }
+
+}
