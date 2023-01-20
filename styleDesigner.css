@@ -192,7 +192,7 @@ nav i {
 }
  
 /* Responsive side */
-@media screen and (width <= 375px) { 
+@media only screen and (width <= 375px) { 
     #h1-set{
     font-size: 15px;
     margin-bottom: 1.5rem;
@@ -251,18 +251,36 @@ nav i {
     margin-top: -12%;
 }
 .hThreeOne{
-  
+  color : #221f21;
 }
 
 /*side to  review again */
  #sectionTwo{
+  display: inline-block;
+   margin-top: 90%;
+   align-items: center;
+   justify-content: center;
+   background-color: none;
+   width: 100%;
+ }
+   #sectionContainer .ImgageSide{
+    margin: 3px;
+    flex-direction: column;
+    grid-template-columns: repeat(2 ,1fr);
+    background-color: none;
+   }
+   .txtComplet {
+    background-color: #f7c8ec;
+   }
+    .ImgageSide{
+        background-color: #e6cfcf;
+    }
+
    
- }
-
 }
 
 
-@media only screen and(width  >= 375px) { 
+@media only screen and (width  >= 390px) { 
     #h1-set{
     font-size: 15px;
     margin-bottom: 1.5rem;
@@ -325,8 +343,26 @@ nav i {
 }
 
 /*side to  review again */
- #sectionTwo{
-    margin-top: 90%;
- }
+#sectionTwo{
+    display: inline-block;
+     margin-top: 90%;
+     align-items: center;
+     justify-content: center;
+     background-color: none;
+     width: 100%;
+   }
+     #sectionContainer .ImgageSide{
+      margin: 3px;
+      flex-direction: column;
+      grid-template-columns: repeat(2 ,1fr);
+      background-color: none;
+     }
+     .txtComplet {
+      background-color: #f7c8ec;
+     }
+      .ImgageSide{
+          background-color: #e6cfcf;
+      }
+      
 
 }
