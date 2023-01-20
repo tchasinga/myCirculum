@@ -10,26 +10,24 @@ hOne.addEventListener("mouseout" , Mouseouting);
 function Mouseouting() {
     return(hOne.innerHTML=secondletter);
 }
-/*
-var typed = new Typed(".autoTyped",{
-    strings : [
-        "Coding in Java-aplication",
-        "Coding in HTML-CSS-JS",
-        "Full-stack Dev",
-    ],
-    typeSpeed: 150,
-    backSpeed: 150,
-    loop : true
-})
-/*/
+
  const texChange =  document.getElementById("autoTyped");
   const textLoad = () =>{
     setTimeout (() =>{
-        texChange.textContent = " Web UI Developers";
+        texChange.textContent = " Web UI Developer";
     },0);
 
     setTimeout (() =>{
-        texChange.textContent = " Java Software programer";
+        texChange.textContent = " Java Software programer ";
+    },4000);
+    setTimeout (() =>{
+        texChange.textContent = " Front-end Dev";
+    },4000);
+    setTimeout (() =>{
+        texChange.textContent = " Back-end Dev";
+    },4000);
+    setTimeout (() =>{
+        texChange.textContent = " I get skills important in FullStack Dev";
     },4000);
     setTimeout (() =>{
         texChange.textContent = " Coding in JavaScript";
