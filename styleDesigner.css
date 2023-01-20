@@ -457,7 +457,7 @@ nav i {
 }
 
 
-@media only screen and (width  >= 768px) { 
+@media only screen and (width <=768px) { 
     #h1-set{
     font-size: 15px;
     margin-bottom: 1.5rem;
