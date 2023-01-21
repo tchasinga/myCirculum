@@ -19,9 +19,6 @@ body {
     background: rgb(248, 247, 247);
     padding-left: 5%;
      height : 100vh;
-    
-    
-
 }
 
 
@@ -104,17 +101,23 @@ nav i {
     cursor: pointer;
 
 }
+
+
 #sectionOne img:hover {
    transform:scale(1.1);
     
 }
+.myTexture h3{
+    margin-top: -10px;
+}
+
 .myTexture h1{
   padding-left: 5%;
   height: none;
  width: none;
-  margin-top: -29rem;
+  margin-top: -30rem;
   padding: none;
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 #h1-set{
     background: linear-gradient(90deg,#291818, #ff5d5d67,#ff00f3,#858ce6,#ff00c4,#94531511);
@@ -152,6 +155,8 @@ nav i {
  }
  #h1OneAnimating{
     background:none; 
+   
+    
  }
 
 .codeLineSelector ul li{
@@ -192,7 +197,7 @@ nav i {
 
  
 /* Responsive side */
-@media only screen and ( width <= 375px) { 
+@media only screen and ( min-width : 375px) { 
     #h1-set{
     font-size: 15px;
     margin-bottom: 1.5rem;
