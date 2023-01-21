@@ -10,23 +10,20 @@
 }
 
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
     background: rgb(248, 247, 247);
+    height : 100vh;
 }
 
 body {
-    height: -webkit-fill-available, 100% !important;
+    background: rgb(248, 247, 247);
     padding-left: 5%;
-    height: 100vh ;
+     height : 100vh;
     
     
 
 }
 
-header {
-    background-attachment: fixed;
-    
-}
 
 #High-header {
     margin: 0;
@@ -190,9 +187,12 @@ nav i {
 .txtComplet h3{
     font-size: 12px;
 }
+
+
+
  
 /* Responsive side */
-@media only screen and (width <= 375px) { 
+@media only screen and ( width <= 375px) { 
     #h1-set{
     font-size: 15px;
     margin-bottom: 1.5rem;
@@ -276,11 +276,10 @@ nav i {
         background-color: #e6cfcf;
     }
 
-   
 }
 
 
-@media only screen and (width  >= 390px) { 
+@media (width <= 390px ),(width <= 414px){ 
     #h1-set{
     font-size: 15px;
     margin-bottom: 1.5rem;
@@ -364,94 +363,4 @@ nav i {
       
 
 }
-@media only screen and (width: 320px) { 
-    #h1-set{
-    font-size: 15px;
-    margin-bottom: 1.5rem;
-    height: 60px;
-    width: 180px;
-    backface-visibility: visible;
-    background-attachment: fixed;
-    
-  }
-  .classContainer {
-    font-size: 9px;
-    margin-right: 40px;
-    width: 99%;
-  }
-  .classContainer ul li i{
-    margin: 3px;
-    align-items: center;
-    position: relative
-  }
-  /*the first time was archived */ 
-
-  nav ul {
-    color: rgb(41, 41, 41);
-    margin-top: -6rem;
-    margin-left: -10rem;
-    cursor: pointer;
-    display: flex;
-}
-
-nav i {
-    font-size: 15px;
-    margin: 10px;
-}
-/*this one is holding */
-
-#sectionOne {
-    align-items: center;
-    justify-content: center;
-}
-#myText img{
-    height: 25%;
-    width: 200px;
-    margin-top: 15rem;
-    padding-bottom: 3rem;
-    align-self: center;
-    margin-left: 3rem;
-    background-attachment: fixed;
-}
-.myTexture h1 {
-    font-size: small;
-   width: 80px;
-}
-
-.hThree{
-    font-size:8.8px;
-    width: 130px;
-    margin-top: -12%;
-}
-.hThreeOne{
-  color : #221f21;
-}
-
-/*side to  review again */
- #sectionTwo{
-  display: inline-block;
-   margin-bottom: 35px;
-   align-items: center;
-   justify-content: center;
-   background-color: none;
-   width: 100%;
-  
- }
-   #sectionContainer .ImgageSide{
-    margin: 3px;
-    flex-direction: column;
-    background-color: none;
-    font-size: 9px;
-   }
-   .txtComplet {
-    background-color: #f7c8ec;
-    font-size: 9px;
-   }
-    .ImgageSide{
-        background-color: #e6cfcf;
-    }
-
-   
-}
-
 
