@@ -11,7 +11,7 @@ function Mouseouting() {
     return(hOne.innerHTML=secondletter);
 }
 
- const texChange =  document.getElementById("autoTyped");
+const texChange =  document.getElementById("autoTyped");
   const textLoad = () =>{
     setTimeout (() =>{
         texChange.textContent = " Web UI Developer";
@@ -19,19 +19,19 @@ function Mouseouting() {
 
     setTimeout (() =>{
         texChange.textContent = " Java Software programer ";
-    },8000);
+    },4000);
     setTimeout (() =>{
         texChange.textContent = " Front-end Dev";
-    },8000);
+    },4000);
     setTimeout (() =>{
         texChange.textContent = " Back-end Dev";
-    },8000);
+    },4000);
     setTimeout (() =>{
-        texChange.textContent = " a Improver skills important in FullStack Dev";
-    },8000);
+        texChange.textContent = " a skills important in FullStack Dev";
+    },4000);
     setTimeout (() =>{
         texChange.textContent = " Coding in JavaScript";
-    },2000);
+    },8000);
   }
   textLoad();
   setInterval(textLoad,12000);
