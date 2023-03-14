@@ -277,6 +277,7 @@ nav i {
     /*side to  review again */
     #sectionTwo {
         display: inline-block;
+        white-space: nowrap;
         margin-top: 90%;
         align-items: center;
         justify-content: center;
@@ -287,7 +288,7 @@ nav i {
     #sectionContainer .ImgageSide {
         margin: 3px;
         flex-direction: column;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2fr, 1fr);
         background-color: none;
     }
 
