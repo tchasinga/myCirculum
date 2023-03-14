@@ -15,23 +15,23 @@ function Mouseouting() {
   const textLoad = () =>{
     setTimeout (() =>{
         texChange.textContent = " Web UI Developer";
-    },0);
+    },1000);
 
     setTimeout (() =>{
         texChange.textContent = " Java Software programer ";
-    },4000);
+    },2000);
     setTimeout (() =>{
         texChange.textContent = " Front-end Dev";
-    },4000);
+    },2000);
     setTimeout (() =>{
         texChange.textContent = " Back-end Dev";
-    },4000);
+    },2000);
     setTimeout (() =>{
-        texChange.textContent = " I get skills important in FullStack Dev";
-    },4000);
+        texChange.textContent = " a Improver skills important in FullStack Dev";
+    },2000);
     setTimeout (() =>{
         texChange.textContent = " Coding in JavaScript";
-    },8000);
+    },2000);
   }
   textLoad();
   setInterval(textLoad,12000);
